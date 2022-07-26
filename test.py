@@ -8,3 +8,4 @@ def test_add():
 def test_multiply():
     assert math_func.multiply(5, 5) == 25
     assert math_func.multiply(5) == 10
+

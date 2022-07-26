@@ -1,15 +1,13 @@
 # position,name,age,level,salary
-
 se1 = ["Software Engineer", "Sayak", 21, "Junior", 5000]
 se2 = ["Software Engineer", "Priyanka", 23, "Senior", 7000]
-
 
 # class
 class SoftwareEngineer:
     # class Attribute
     alias = "Defence Aspirant"
 
-    # Instance Attributes
+    # Instance Attributes/variables
     def __init__(self, name, age, level, salary):
         self.name = name
         self.age = age
